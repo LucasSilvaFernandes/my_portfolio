@@ -1,0 +1,43 @@
+@media screen and (min-width: 1600px) {
+  .about__skills {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .about__skills {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .about__content {
+    grid-template-columns: 1fr;
+  }
+
+  .about__description {
+    padding: 1rem 2rem;
+    text-align: center;
+  }
+
+  .about__skills {
+    grid-template-columns: repeat(6, 1fr);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about__skills {
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .about__skills {
+    justify-content: center;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+}

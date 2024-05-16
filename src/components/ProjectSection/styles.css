@@ -1,0 +1,85 @@
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 8rem;
+}
+
+.project__title {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  color: var(--title-color);
+  margin-top: 1.6rem;
+  margin-bottom: 3.2rem;
+}
+
+.project__tags {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 2.4rem 0;
+  color: var(--title-color);
+}
+
+.project__tag {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border: 2px solid #727c8a;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.project-tag.selected {
+  color: var(--title-color);
+}
+
+.project__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 3.2rem;
+}
+
+/* ======= Swiper styles ======= */
+
+.custom__swiper {
+  width: 100%;
+  margin-top: 3.2rem;
+  display: flex;
+}
+
+.custom__swiper__slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* SwiperCustomStyles.css */
+.custom-swiper-button-prev,
+.custom-swiper-button-next {
+  position: absolute;
+  top: 30%;
+  color: var(--button-color);
+  border-radius: 50%;
+  font-size: 3rem;
+  cursor: pointer;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+.custom-swiper-button-prev {
+  left: 30px;
+}
+
+.custom-swiper-button-next {
+  right: 30px;
+}
+
+.custom-swiper-button-prev:hover,
+.custom-swiper-button-next:hover {
+  opacity: 0.8;
+}

@@ -1,0 +1,22 @@
+@media screen and (max-width: 1200px) {
+  .custom__swiper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .project__title {
+    font-size: 2rem;
+  }
+
+  .custom-swiper-button-prev,
+  .custom-swiper-button-next {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .custom__swiper {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

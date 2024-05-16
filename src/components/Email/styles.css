@@ -1,0 +1,90 @@
+.email__section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 6rem 6rem;
+  gap: 1rem;
+  position: relative;
+}
+
+.email__content {
+  z-index: 1;
+}
+
+.email__title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+
+.email__description {
+  color: #adb7be;
+  margin-bottom: 1rem;
+  max-width: 32rem;
+}
+
+.email__socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+
+.email__social-icon {
+  font-size: 3rem;
+  color: #7238f0e8;
+  transition: 0.3s ease-in-out;
+}
+
+.email__social-icon:hover {
+  color: white;
+}
+
+.email__form-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.email__field {
+  margin-bottom: 1.5rem;
+}
+
+.email__label {
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.email__input {
+  background-color: #18191e;
+  border: 1px solid #33353f;
+  border-radius: 0.5rem;
+  color: #e5e7eb;
+  font-size: 0.875rem;
+  padding: 0.5rem;
+  width: 100%;
+  outline: none;
+}
+
+.email__submit {
+  background-color: var(--button-color);
+  color: white;
+  font-weight: 500;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+}
+
+.email__submit:hover {
+  box-shadow: 0 2px 5px #7843e9;
+  transform: translateY(-3px);
+}
+
+.email__success-message {
+  color: green;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}

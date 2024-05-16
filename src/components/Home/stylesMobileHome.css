@@ -1,0 +1,32 @@
+@media screen and (min-width: 1380px) {
+  .home__content {
+    padding: 15rem 0;
+  }
+
+  .home__description {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .home__title {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home__scroll-button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home__title {
+    font-size: 2.5rem;
+  }
+
+  .home__description {
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+  }
+}

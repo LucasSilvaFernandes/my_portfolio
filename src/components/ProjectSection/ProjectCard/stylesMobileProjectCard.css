@@ -1,0 +1,42 @@
+@media screen and (max-width: 992px) {
+  .projectCard__image {
+    height: 20rem;
+    width: 20rem;
+  }
+
+  .projectCard__title {
+    font-size: 1.2rem;
+    margin-top: 2rem;
+  }
+
+  .projectCard__overlay {
+    position: static;
+    background-color: transparent;
+    opacity: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: none;
+  }
+
+  .facode {
+    position: absolute;
+    height: 2.2rem;
+    width: 2.2rem;
+    top: 21rem;
+    left: 30%;
+  }
+
+  .faeye {
+    position: absolute;
+    height: 2.2rem;
+    width: 2.2rem;
+    top: 21rem;
+    left: 60%;
+  }
+
+  .projectCard__icon {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}

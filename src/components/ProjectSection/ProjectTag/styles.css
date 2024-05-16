@@ -1,0 +1,28 @@
+.project__tag {
+  border: 1px solid var(--button-color);
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: border-color 0.2s ease-in-out;
+  background-color: var(--body-color);
+}
+
+.project__tag:hover {
+  color: white;
+}
+
+.project__tag.selected {
+  color: white;
+  box-shadow: 0 5px 10px var(--button-color);
+}
+
+.project__tag:not(.selected) {
+  color: #adb7be;
+  border-color: var(--button-color);
+}
+
+.project__tag:not(.selected):hover {
+  color: white;
+  transition: 0.3s;
+}
