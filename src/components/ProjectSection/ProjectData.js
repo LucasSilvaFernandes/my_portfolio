@@ -8,8 +8,8 @@ import project6 from "../../assets/project-images/6.png";
 const projectsData = [
   {
     id: 1,
-    title: "React Website Moderno",
-    description: "Project 1 description",
+    title: "React website moderno",
+    description: "Projeto de Design feito com react + tailwind",
     image: project1,
     tag: ["All", "Frontend"],
     gitUrl: "https://github.com/LucasSilvaFernandes/modern_website",
@@ -18,11 +18,11 @@ const projectsData = [
   {
     id: 2,
     title: "Potography Portfolio Website",
-    description: "Project 2 description",
+    description: "Projeto API de clientes usando nodeJS + typescript e mongoDB ",
     image: project2,
-    tag: ["All", "Frontend"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "Backend"],
+    gitUrl: "https://github.com/LucasSilvaFernandes/project_client",
+    previewUrl: "https://project-client-p87vq31d5-lucas-projects-471d9932.vercel.app/",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ const projectsData = [
     title: "Food Ordering Application",
     description: "Project 4 description",
     image: project4,
-    tag: ["All", "Backend"],
+    tag: ["All", "Frontend"],
     gitUrl: "/",
     previewUrl: "/",
   },
